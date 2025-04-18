@@ -25,11 +25,44 @@
             956, 930, 921, 956, 930, 921, 956, 930, 921, 956, 930, 921, 956, 930, 921, 956, 930, 921, 956, 930, 921, 956, 930, 921, 956, 930, 921, 956, 930, 921],
          "height":20,
          "id":9,
-         "name":"Sol",
+         "name":"floorLayer",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
          "width":30,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":47,
+         "name":"start",
+         "objects":[
+                {
+                 "height":66.6667,
+                 "id":8,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":90.6667,
+                 "x":532,
+                 "y":465.333
+                }, 
+                {
+                 "height":1.33333,
+                 "id":9,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":1.33333,
+                 "x":490.667,
+                 "y":745.333
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -992,8 +1025,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":45,
- "nextobjectid":8,
+ "nextlayerid":48,
+ "nextobjectid":12,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
@@ -1001,47 +1034,47 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/Documents\/Room_Builder_borders_32x32.tsx"
+         "source":"..\/..\/Documents\/Room_Builder_borders_32x32.tsx"
         }, 
         {
          "firstgid":451,
-         "source":"..\/Documents\/Room_Builder_Floors_32x32.tsx"
+         "source":"..\/..\/Documents\/Room_Builder_Floors_32x32.tsx"
         }, 
         {
          "firstgid":1051,
-         "source":"..\/Documents\/Room_Builder_Walls_32x32.tsx"
+         "source":"..\/..\/Documents\/Room_Builder_Walls_32x32.tsx"
         }, 
         {
          "firstgid":2331,
-         "source":"..\/Documents\/12_Kitchen_32x32.tsx"
+         "source":"..\/..\/Documents\/12_Kitchen_32x32.tsx"
         }, 
         {
          "firstgid":3115,
-         "source":"Tileset\/22_Museum_32x32.tsx"
+         "source":"..\/Tileset\/22_Museum_32x32.tsx"
         }, 
         {
          "firstgid":5067,
-         "source":"..\/Documents\/19_Hospital_32x32.tsx"
+         "source":"..\/..\/Documents\/19_Hospital_32x32.tsx"
         }, 
         {
          "firstgid":6827,
-         "source":"Tileset\/2_LivingRoom_32x32.tsx"
+         "source":"..\/Tileset\/2_LivingRoom_32x32.tsx"
         }, 
         {
          "firstgid":7547,
-         "source":"Tileset\/18_Jail_32x32.tsx"
+         "source":"..\/Tileset\/18_Jail_32x32.tsx"
         }, 
         {
          "firstgid":8267,
-         "source":"Tileset\/5_Classroom_and_library_32x32.tsx"
+         "source":"..\/Tileset\/5_Classroom_and_library_32x32.tsx"
         }, 
         {
          "firstgid":8811,
-         "source":"Tileset\/21_Clothing_Store_32x32.tsx"
+         "source":"..\/Tileset\/21_Clothing_Store_32x32.tsx"
         }, 
         {
          "firstgid":9883,
-         "source":"Tileset\/1_Generic_32x32.tsx"
+         "source":"..\/Tileset\/1_Generic_32x32.tsx"
         }],
  "tilewidth":32,
  "type":"map",
